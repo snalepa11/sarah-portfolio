@@ -1,10 +1,17 @@
 header {
     background-color: #29353C;
+    font-size: larger;
 
     & ul { 
         text-align: right;
         color: #aac7d8;
-        display: inline;
+        list-style: none;
+    }
+
+    & li {
+        display: inline-block;
+        padding: 10px;
+        font-size: larger;
     }
 
     & h1 {
@@ -18,4 +25,14 @@ header {
 
 footer {
     color: #29353C;
+
+    & ul {
+        list-style: none;
+    }
+
+    & li {
+        display: inline-block;
+        padding: 10px;
+        font-size: larger;
+    }
 }
