@@ -1,6 +1,7 @@
 header {
     background-color: #29353C;
     font-size: larger;
+    display: flex;
 
     & ul { 
         text-align: right;
@@ -9,7 +10,7 @@ header {
     }
 
     & li {
-        display: inline-block;
+        display: inline-flex;
         padding: 10px;
         font-size: larger;
     }
@@ -22,16 +23,20 @@ header {
     }
 }
 
+section {
+    display: flex;
+}
 
 footer {
     color: #29353C;
+    display: flex;
 
     & ul {
         list-style: none;
     }
 
     & li {
-        display: inline-block;
+        display: inline-flex;
         padding: 10px;
         font-size: larger;
     }
