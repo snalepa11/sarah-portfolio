@@ -25,6 +25,7 @@ header {
     }
 }
 
+
 /* I didn't find a picture I liked for the hero so I decided on using a color block instead*/
 .hero {
     background-color: #aac7d8;
@@ -44,6 +45,42 @@ header {
     }
 }
 
+.main-img{
+    height: 400px;
+    padding-bottom: 80px;
+}
+& img{
+    height: 100%;
+    width: 98%;
+    border: 8px solid #aac7d8;
+}
+
+& figcaption {
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 15px;
+    background-color: #aac7d8; 
+    color: #435661;
+    width: fit-content;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.secondary-img{
+    display: flex;
+    justify-content: space-between;
+
+& img{
+    width: 38vw;
+    max-height: 350px;
+    border: 8px solid #aac7d8;
+}
+}
+
+.color {
+    color: #435661;
+}
+
 .page-section{
     display:flex;
     justify-content: flex-start;
@@ -59,49 +96,12 @@ header {
 .content{
     width:80vw;
     font-size: x-large;
-}
-.content ul{
+& ul{
     list-style: none;
     display:flex;
     justify-content: space-evenly;
     
 }
-
-.main-img{
-    height: 400px;
-    padding-bottom: 80px;
-}
-
-.main-img figcaption {
-    position: absolute;
-    margin-top: -75px;
-    margin-left: 15px;
-    background-color: #aac7d8; 
-    color: #435661;
-    width: fit-content;
-    font-size: xx-large;
-    font-weight: bolder;
-}
-
-.main-img img{
-    height: 100%;
-    width: 98%;
-    border: 8px solid #aac7d8;
-}
-
-.secondary-img{
-    display: flex;
-    justify-content: space-between;
-}
-
-.secondary-img img{
-    width: 38vw;
-    max-height: 350px;
-    border: 8px solid #aac7d8;
-}
-
-.color {
-    color: #435661;
 }
 
 footer {
@@ -109,4 +109,3 @@ footer {
     text-align: center;
   
 }
-
