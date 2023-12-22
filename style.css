@@ -25,14 +25,23 @@ header {
     }
 }
 
+/* I didn't find a picture I liked for the hero so I decided on using a color block instead*/
 .hero {
+    background-color: #aac7d8;
     width: 100vw;
+    height: 200px;
     margin:0;
-    padding:0;
-}
-.hero img{
-    width:98.2vw;
-    height:250px;
+    padding:0; 
+    
+    & figcaption {
+        color: #435661;
+        font-size: xx-large;
+        font-weight: bolder;
+        position: absolute;
+        margin-top: 50px;
+        left: 80%;
+     
+    }
 }
 
 .page-section{
@@ -64,18 +73,19 @@ header {
 }
 
 .main-img figcaption {
-    margin-top: -50px;
+    position: absolute;
+    margin-top: -75px;
     margin-left: 15px;
     background-color: #aac7d8; 
     color: #435661;
     width: fit-content;
-    font-size: larger;
-    font-style: bolder;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
 .main-img img{
     height: 100%;
-    width: 100%;
+    width: 98%;
     border: 8px solid #aac7d8;
 }
 
@@ -85,7 +95,7 @@ header {
 }
 
 .secondary-img img{
-    width: 40vw;
+    width: 38vw;
     max-height: 350px;
     border: 8px solid #aac7d8;
 }
