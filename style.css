@@ -96,16 +96,27 @@ header {
 .content{
     width:80vw;
     font-size: x-large;
-& ul{
-    list-style: none;
-    display:flex;
-    justify-content: space-evenly;
-    
-}
+
+    & ul{
+        list-style: none;
+        display:flex;
+        justify-content: space-evenly;
+        
+    }
 }
 
 footer {
     color: #435661;
     text-align: center;
-  
+}
+
+
+@media screen and (max-width:375px), screen and (max-height:667px){
+    header{
+        flex-direction: column;
+    }
+    
+    .content ul {
+        flex-direction: column;
+    }
 }
