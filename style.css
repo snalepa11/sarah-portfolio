@@ -113,7 +113,7 @@ footer {
 /* Added a media query for screen size adaptation*/
 
 
-@media all and (max-width:375px){
+@media all and (max-width:414px){
     header{
         flex-direction: column;
     }
