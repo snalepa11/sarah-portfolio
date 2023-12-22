@@ -111,7 +111,9 @@ footer {
 }
 
 /* Added a media query for screen size adaptation*/
-@media screen and (max-width:414px), screen and (max-height:896px){
+
+
+@media all and (max-width:375px){
     header{
         flex-direction: column;
     }
