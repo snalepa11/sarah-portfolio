@@ -111,7 +111,7 @@ footer {
 }
 
 
-@media screen and (max-width:375px), screen and (max-height:667px){
+@media screen and (max-width:414px), screen and (max-height:896px){
     header{
         flex-direction: column;
     }
