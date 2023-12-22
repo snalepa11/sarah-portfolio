@@ -110,7 +110,7 @@ footer {
     text-align: center;
 }
 
-
+/* Added a media query for screen size adaptation*/
 @media screen and (max-width:414px), screen and (max-height:896px){
     header{
         flex-direction: column;
